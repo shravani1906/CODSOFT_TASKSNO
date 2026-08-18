@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000; // default port
 
 app.get("/", (req, res) => {
-  res.send("Hello from Dockerized Node app!");
+  res.send("Hello World - Version A!");
 });
 
 app.listen(PORT, () => {
